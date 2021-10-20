@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Raleway:400,300,600" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/4.0.0/normalize.min.css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" />
+  <title>Skills application</title>
+</head>
+<body>
+	<div>
+		<form th:action="@{/send}" method="post">
+			<textarea name="message" cols="40" rows="2"></textarea>
+			<br> <input type="submit" value="Save Message" />
+		</form>
+	</div>
+</body>
+</html>
